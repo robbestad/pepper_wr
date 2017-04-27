@@ -1,0 +1,18 @@
+topic: ~example_topic1()
+language: enu
+
+concept:(food) [fruits chicken beef eggs]
+
+
+proposal:%topicof1
+	proposal topic 1
+	u1:(ok)
+		good
+
+u:(start counting) 0, 1, 2, 3, 4, 5.
+
+u:(topic 1) in updated topic 1
+	^goto(topicof1)
+	
+u:(webrebels)
+    what's that?

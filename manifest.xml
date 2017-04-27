@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<package uuid="acandowebrebels" version="0.0.0">
+ <names>
+  <name lang="en_US">AcandoWebRebels</name>
+ </names>
+ <supportedLanguages>
+  <language>en_US</language>
+ </supportedLanguages>
+ <descriptionLanguages>
+  <language>en_US</language>
+ </descriptionLanguages>
+ <contents>
+  <behaviorContent path=".">
+   <userRequestable/>
+   <nature>interactive</nature>
+   <triggerSentences/>
+   <loadingResponses/>
+   <autonomous/>
+   <permissions/>
+  </behaviorContent>
+ </contents>
+ <requirements>
+  <naoqiRequirement maxVersion="2.5" minVersion="2.5"/>
+  <robotRequirement model="JULIETTE"/>
+ </requirements>
+ <services>
+  <service autorun="false" execStart="main.py" name="AcandoWebRebels"/>
+ </services>
+ <executableFiles>
+  <file path="main.py"/>
+ </executableFiles>
+</package>
